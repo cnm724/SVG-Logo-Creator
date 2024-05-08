@@ -20,7 +20,7 @@ inquirer
     {
         type: 'input',
         name: 'textColor',
-        message: "What's the color for the text? (color keyword or hex number)",
+        message: "What's the color for the text? (color or hex number)",
     },
     {
         type: 'list',
@@ -31,7 +31,7 @@ inquirer
     {
         type: 'input',
         name: 'shapeColor',
-        message: "What color do you want the shape to be? (color keyword or hex number)",
+        message: "What color do you want the shape to be? (color or hex number)",
     },
   ])
   .then((answers) => {
