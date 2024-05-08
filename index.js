@@ -4,6 +4,7 @@ const { Circle } = require('./lib/circle');
 const { Square } = require('./lib/square');
 const { Triangle } = require('./lib/triangle');
 
+// question prompts for user input
 inquirer
   .prompt([
     {
@@ -37,6 +38,7 @@ inquirer
   .then((answers) => {
     let shape;
     switch (answers.shape) {
+        // creates/checks shape inputed by user
         case 'Circle':
             shape = new Circle(answers.shapeColor, answers.logoCharacters, answers.textColor);
             break;
@@ -50,7 +52,9 @@ inquirer
             throw new Error('Invalid logo choice.');
     }
 
+    // renders shape once passes switch case
     const svgContent = shape.render();
+    // creates file
     return fs.promises.writeFile("./output/logo.svg", svgContent);
 })
 .then(() => {

@@ -1,6 +1,6 @@
 <div align='center'>
   
-  # SVG Logo Maker
+  # SVG Logo Creator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en) 
@@ -14,6 +14,7 @@
 
 This is a command line based application that generates a professional SVG logo from user input. This application was created to show my skills on Object-oriented programming (OOP) and the usefulness of jest.
 
+Click here to watch the application at work: [SVG Logo Creator Demo](https://drive.google.com/file/d/1AtQKI8veV0k9cWTDNMGcQyVs3Gu3u6hM/view?usp=sharing)
 
 ## Table of Contents
 
