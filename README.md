@@ -16,6 +16,8 @@ This is a command line based application that generates a professional SVG logo 
 
 Click here to watch the application at work: [SVG Logo Creator Demo](https://drive.google.com/file/d/1AtQKI8veV0k9cWTDNMGcQyVs3Gu3u6hM/view?usp=sharing)
 
+Click here for jest test demo: [Jest Test Demo](https://drive.google.com/file/d/1-MvVKXu8-XkHMaa_hbcmEb1-MQE29Ova/view?usp=sharing)
+
 ## Table of Contents
 
 - [Installation](#installation)
